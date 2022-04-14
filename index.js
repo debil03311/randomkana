@@ -1,8 +1,9 @@
 import { App } from "@tinyhttp/app";
 import { readFileSync } from "fs";
+import "dotenv/config";
 
 const app = new App();
-const PORT = 80;
+const PORT = process.env.PORT || 5000;
 
 /**
  * Convert a hiragana character to its katakana counterpart

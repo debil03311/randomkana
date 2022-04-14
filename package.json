@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tinyhttp/app": "^2.0.20"
+    "@tinyhttp/app": "^2.0.20",
+    "dotenv": "^16.0.0"
   }
 }
