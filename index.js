@@ -2,7 +2,7 @@ import { App } from "@tinyhttp/app";
 import { readFileSync } from "fs";
 
 const app = new App();
-const PORT = 8080;
+const PORT = 80;
 
 /**
  * Convert a hiragana character to its katakana counterpart
